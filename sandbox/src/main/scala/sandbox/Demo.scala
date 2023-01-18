@@ -9,5 +9,9 @@ object Demo {
       val z = x + y
       println(s"x + y = $z")
     }
+
+    PrintMac.toErr {
+      println("Hello, world!!!")
+    }
   }
 }
